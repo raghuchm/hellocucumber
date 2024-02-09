@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: hellocucumber.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.225 s <<< FAILURE! - in hellocucumber.RunCucumberTest
+An example.The example  Time elapsed: 0.082 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Saturday> but was: <Saturday1>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1142)
+	at hellocucumber.StepDefinitions.theScenarioPasses(StepDefinitions.java:23)
+	at ✽.the scenario passes(classpath:hellocucumber/example.feature:6)
+
